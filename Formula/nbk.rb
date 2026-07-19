@@ -10,9 +10,9 @@
 class Nbk < Formula
   desc "Keyboard-driven control of macOS notifications via the Accessibility API"
   homepage "https://github.com/kimbirkelund/mac-notifications-by-key"
-  version "1.0.4"
+  version "1.1.8"
   url "https://github.com/kimbirkelund/mac-notifications-by-key/releases/download/release/v#{version}/nbk-#{version}-macos-universal.tar.gz"
-  sha256 "e56ef9ce2e0036be98e5ce6cd684567bf6366bff1c6d980b513bd2231f1b9db5"
+  sha256 "80cf3117c290f8477d726a1b5aef2d9ff648fe2e29cb03683979f4291244138b"
   depends_on :macos
   conflicts_with "nbk-beta", because: "both install a `nbk` binary"
 
