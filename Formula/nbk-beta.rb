@@ -11,9 +11,9 @@
 class NbkBeta < Formula
   desc "Keyboard-driven control of macOS notifications (prerelease channel)"
   homepage "https://github.com/kimbirkelund/mac-notifications-by-key"
-  version "1.3.14-beta"
+  version "1.4.44-beta"
   url "https://github.com/kimbirkelund/mac-notifications-by-key/releases/download/release/v#{version}/nbk-#{version}-macos-universal.tar.gz"
-  sha256 "6af514714b7fa5fe0fa84455380f4c0f8398e0aee345b42be16811b1cf446ab0"
+  sha256 "2cf7b01aa1f662a2188bed74abfd824162207f97b7bd28e6e0e58de9d25e92d6"
   depends_on :macos
   conflicts_with "nbk", because: "both install a `nbk` binary"
 
